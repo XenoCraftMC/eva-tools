@@ -59,10 +59,10 @@ else
 	exit 1
 fi
 
-"[SCRIPT] Deleting (empty) cloned folder"
+echo "[SCRIPT] Deleting (empty) cloned folder"
 rm Eva-v5/ -rf
 
 ls
 
-"[SCRIPT] Refreshing project"
+echo "[SCRIPT] Refreshing project"
 refresh
