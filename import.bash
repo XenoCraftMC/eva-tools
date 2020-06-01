@@ -44,7 +44,7 @@ else
 fi
 
 "[SCRIPT] Moving cloned files one level up in the folder hiearchy"
-mv Eva-v5/*
+mv Eva-v5/* .
 
 echo "[SCRIPT] Displaying directory tree"
 ls
